@@ -14,20 +14,26 @@ body {
   background: #e3f4ff;
   font-size: 16px; /* The title of the card uses a 16px font. */
   padding: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
+  margin-top: 0px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
+  margin-bottom: 8px;
+  padding: 16px 8px; /* There is an 8px gap between each of the blue sections inside the card. */
 }
 
 .button-container {
   background: #e3f4ff;
   padding: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding: 8px; /* There is an 8px gap between each of the blue sections inside the card. */
+  padding: 8px 24px; /* There is an 8px gap between each of the blue sections inside the card. */
+  display: block;
+  margin: 0 auto;
 }
