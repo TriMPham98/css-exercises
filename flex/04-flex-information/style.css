@@ -1,10 +1,27 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap;
+}
+
+.content-column {
+  width: 200px;
 }
 
 .title {
